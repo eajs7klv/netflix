@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+    font-size: 16px;
+}
+ 
+/* HEADER */
+.navbar{
+   width: 86%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 15px 10px ;
+}
+.navbar i{
+    font-size: 25px;
+}
+.nav_social i{
+ margin-left: 18px;
+}
+
+/* FIRST SECTION */
+
+.first_section{
+    width: 100%;
+    height: 80vh;
+    background: url("img/2aacd6d0-415a-4fc7-a8af-c863f766ebdb.jpg") center/cover;
+}
+.logo p{
+    color: red;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btn button{
+    border: 0;
+    width: 66px;
+    height: 34px;
+    padding: 8px 8px ;
+    border-radius: 8px;
+    background: red;
+    color: white;
+}
+h1.title_first{
+    width: 450px ;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+}
+.form {
+    width: 75%;
+    margin:  50px auto;
+}
+.form_item{
+    width: 48%;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+}
+.form input {
+    border-bottom: 5px solid  yellow;
+}
+.form button{
+    background: red;
+    color: white;
+
+}
+
+/* MAIN */
+.main{
+    display: flex;
+    border-bottom: 15px solid grey;
+    border-top: 15px solid grey;
+    padding: 2rem 1rem ;
+    
+}
+.container_main {
+    width: 50%;
+    margin: auto;
+   text-align:left;
+}
+.container_foto img{
+    width: 85%;
+    height: 42vh;
+    justify-content: center;
+}
+
+
+.main2{
+    display: flex;
+    border-bottom: 15px solid grey;
+}
+.container_main2 {
+    width: 50%;
+    margin: auto;
+   text-align:left;
+}
+.container_foto2 img{
+    width: 85%;
+    height: 42vh;
+    justify-content: center;
+}
+
+
+/*  SECOND SECTION  */
+
+.second_section{
+    width: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-bottom: 15px solid grey;
+}
+.second_section h1,h4 {
+    color: white;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.title {
+    background: grey;
+    padding: 20px 30px   ;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  white ;
+    font-size: 22px ;
+    text-decoration: none;
+}
+
+/* THIRD SECTION */
+.third_section {
+    color: red;
+    font-size: 15px;
+    text-align: unset;
+    display: block;
+}
+
+.third_section{
+    width: 85%;
+    margin-top: 20px;
+    border-bottom: 15px solid grey;
+}
+
+
+/* FOOTER */
+.footer{
+    width: 80%;
+    text-align: unset;
+    margin:0px ;
+}
